@@ -2,9 +2,14 @@
 html{
     background-image: url('../images/background.gif');
     background-size: cover;
-
+    
 }
 
 #header {
-    
+    font-family: 'VT323', monospace;
+}
+
+.ig {
+    height: fit-content;
+    width: auto;
 }
