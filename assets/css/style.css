@@ -5,11 +5,32 @@ html{
     
 }
 
+h2 {
+    font-family: 'VT323', monospace;
+}
+
+nav{
+    font-family: 'VT323', monospace;
+}
+
 #header {
     font-family: 'VT323', monospace;
 }
 
-.ig {
-    height: fit-content;
-    width: auto;
+.social {
+    width: 1em;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
